@@ -22,7 +22,7 @@ export class PostsService {
     return this.postRepository.save(newPost);
   }
 
-  getPost() {
+  getPosts() {
     return this.postRepository.find();
   }
 }

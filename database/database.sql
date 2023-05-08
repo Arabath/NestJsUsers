@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS users;
+
+USE users;
+
+CREATE TABLE user (
+    id INTEGER NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    password_hash VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+DESCRIBE users;
